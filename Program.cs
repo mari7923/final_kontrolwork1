@@ -28,3 +28,10 @@ class Program
                 count++;
             }
         }
+
+        string[] resultArray = new string[count];
+
+        int index = 0;
+        for (int i = 0; i < inputArray.Length; i++)
+        {
+            if (inputArray[i].Length <= 3)
